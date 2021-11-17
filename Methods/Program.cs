@@ -16,7 +16,7 @@ class Personel
 
     public string ToString ()
     {
-        return $"{TC},{Name},{Address},{Phone}";
+        return $"{this.TC},{this.Name},{this.Address},{this.Phone}";
     }
 }
 class Program
